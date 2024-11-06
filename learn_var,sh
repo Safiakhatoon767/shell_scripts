@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+echo "what is your name"
+echo ""
+name=Safia
+
+echo "My name is $name "
+
+
+echo ""
+
+read -p "what is your father name : "
+
+echo ""
+
+echo "what is your age"
+
+echo ""
+
+read=24
+
+echo ""
+
+echo "my age is $read"
+
+echo ""
+
+echo "What are you doing"
+
+read name
+
+echo ""
+
+echo "I am doing $name"
+
+echo ""
+
+echo "In evening let's go to outside na..for walking"
+
+echo ""
+
+read name2
