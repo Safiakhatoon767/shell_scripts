@@ -6,7 +6,7 @@
 note
 
 
-
+function create_backup {
 timestamp="$(date +'%y-%m-%d_%H-%M-%S')"
 
 backup_dir="${timestamp}_backup.zip"
@@ -14,3 +14,4 @@ backup_dir="${timestamp}_backup.zip"
 zip -r $backup_dir $1
 
 echo "BACKUP_COMPLETE"
+}
